@@ -1,0 +1,394 @@
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.nav-links li a{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    padding: 10px;
+   position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+.btn-primary{
+    display: none;
+}
+
+@media(max-width:1009px) {
+    .nav-links{
+        display: none;
+        padding: 30px;
+    }
+    .btn-primary{
+        display: block;
+       padding: 10px;
+       width: 60px;
+       background-color: transparent;
+       border: none;
+  
+    }
+}
+
+
+.res-ul{
+    padding: 0;
+}
+
+.offcanvas-body{
+    padding-bottom: 200px;
+}
+
+.res-ul li a{
+    background-color: black;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   color: white;
+   gap: 30px;
+ margin-top: 20px;
+border-radius: 10px;
+}
+
+.offcanvas-top{
+    padding-bottom: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+#hero{
+    padding-top: 90px;
+    padding-bottom: 60px;
+       background-image: url("../images/0d4ebf1b29b16c6345c1ae6cf6b4a65d58d2c72c\ \(1\).png");
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+.hero-infos{
+    padding-top: 100px;
+    color: white;
+font-weight: 500;
+font-family: sans-serif;
+}
+
+.hero-infos h1{
+    font-size: 60px;
+   padding-bottom: 10px;
+}
+
+.hero-infos p{
+    font-size: 18px;
+   padding-bottom: 10px;
+}
+
+.hero-infos button{
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 2px;
+  background-color: green;
+  color: white;
+}
+
+
+@media (max-width:570px) {
+    .hero-infos h1{
+   font-size: 35px;
+    }
+
+    .hero-infos{
+        padding: 15px;
+        padding-bottom: 30px;
+        padding-top: 90px;
+    }
+header{
+    background-color: rgba(0, 0, 0, 0.621);
+padding: 20px;
+backdrop-filter: blur(8px);
+}
+}
+
+#too{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    background-color: #686868;
+}
+
+.infos-too{
+    color: white;
+    padding-bottom: 90px;
+}
+
+.infos-too h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.infos-too p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.too-card{
+    background-color: #535353;
+    padding: 15px;
+    max-width: 360px;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+.too-card h3{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.too-card p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.too-card button{
+ padding: 10px;
+  border: 2px solid white;
+  border-radius: 2px;
+  background-color: green;
+  color: white;
+    font-size: 15px;
+}
+
+.too-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+@media (max-width:1040px) {
+    .too-cards{
+            display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 10px;
+    }
+
+    .too-card {
+      text-align: center;
+      max-width: 500px;
+    }
+
+    .infos-too{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 784px) {
+    .too-cards{
+            display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    padding: 10px;
+    }
+
+    .too-card{
+        max-width: 500px;
+    }
+}
+
+#three{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.h2-three-infos{
+    text-align: center;
+    color: #686868;
+    font-size: 40px;
+    padding-bottom: 90px;
+}
+
+.three-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.infos-three h3{
+    color: green;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.infos-three p{
+    color: rgb(147, 148, 147);
+    font-size: 20px;
+}
+
+@media (max-width:1232px) {
+    .three-flex{
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .three-flex img{
+        width: 375px;
+        padding: 10px;
+    }
+}
+
+.flex-three-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding-top: 30px;
+}
+
+@media (max-width:1222px) {
+    .flex-three-images{
+        flex-direction: column;
+        
+    }
+}
+
+#four{
+        padding-top: 90px;
+    padding-bottom: 60px;
+       background-image: url("../images/Вход-1\ 1.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.four-flex{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 50px;
+}
+
+.four-bola-f{
+    color: white;
+}
+
+.h3{
+    font-size: 65px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.min-flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.four-bola-f .backraund{
+background-color: rgba(6, 170, 6, 0.443);
+backdrop-filter: blur(8px);
+padding: 30px;
+width: 650px;
+padding-bottom: 200px;
+border-radius: 10px;
+}
+
+@media (max-width:1275px) {
+    .four-flex{
+        flex-direction: column;
+    }
+
+    .four-bola-f .backraund{
+        width: 350px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .h3{
+        font-size: 36px;
+        padding: 10px;
+    }
+
+    .four-bola-f p{
+        padding: 10px;
+    }
+}
+
+
+#five{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.flex-five{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.flex-five h2{
+    font-size: 45px;
+    color: #252424;
+}
+
+.flex-five p{
+    font-size: 20px;
+    color: #252424;
+}
+
+.max-images-five{
+    padding-top: 70px;
+    width:1270px;
+}
+
+@media (max-width:1404px) {
+    .flex-five{
+        flex-direction: column;
+    }
+   .max-images-five{
+   max-width: 1100px;
+   width: 100%;
+   }
+}
+
+@media (max-width:1126px) {
+
+   .max-images-five{
+max-width: 370px;
+width: 100%;
+padding: 10px;
+padding-top: 50px;
+   }
+
+   .flex-five h2{
+    font-size: 30px;
+   }
+}
